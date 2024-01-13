@@ -1,0 +1,67 @@
+header{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid rgb(203, 201, 201);
+    padding: 15px 0;
+}
+main{
+    
+}
+.logo{
+    flex: 1;
+    margin: 0 100px;
+}
+.emp{
+    flex: 1;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex: 1.5;
+}
+.icon{
+    flex: 1;
+}
+.elmenu{
+    margin: 0 20px;
+    font-size: 22px;
+}
+.icon img{
+    margin: 0 15px;
+}
+
+
+
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    height: 700px;
+    align-items: end;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 700px;
+
+}
+.text h1{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(131, 129, 129);
+}
+.text p{
+    width: 450px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text a{
+    display: inline-block;
+    text-decoration: none;
+    color:#7875FE;
+    font-size: 40px;
+    border: 2px solid #7875FE;
+    padding: 20px 100px;
+    align-self: start;
+    margin: 50px 0;
+}
